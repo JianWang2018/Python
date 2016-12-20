@@ -2,8 +2,16 @@ import numpy as np
 import matplotlib.pylab as plt
 import pandas as pd
 
-# the threshold funciton is used to return the optimal threshold for classifying the samples
-def Threshold:
+# the threshold function is used to return the optimal threshold for classifying the samples
+def Threshold(feature_list):
+    # first sorted the feature_list by the first element
+    feature_list=sorted(feature_list)
+    threshold_idx=0
+    for i in range(len(feature_list)):
+
+
+
+
 
 
 def main():
@@ -16,6 +24,7 @@ def main():
     # sort the haar_feature_list by first element
     haar_feature_list=sorted(haar_feature_list)
     #print(haar_feature_list)
+
 
 
 
