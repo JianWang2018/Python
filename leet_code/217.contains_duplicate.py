@@ -2,7 +2,7 @@
 # appears at least twice in the array, and it should return false if every element is distinct.
 
 # key: if sorted then O(N), else can use hash table to have O(n) time and o(n) space complexity
-# key, can not use dict should use set, otherwise it will time out
+# key, can not use dict should use set, otherwise it will time out, can use set
 import time
 class Solution:
     # @param {integer[]} nums
