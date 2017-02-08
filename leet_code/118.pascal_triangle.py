@@ -24,7 +24,7 @@
 #         self.right = None
 
 import time
-class Solution:
+class Solution1:
     # @param root, a tree node
     # @param sum, an integer
     # @return a boolean
@@ -34,13 +34,26 @@ class Solution:
             for i in range(1, numRows):
                 res.append([x+y for x,y in  zip(res[-1] + [0], [0] + res[-1])])
             return res[:numRows]
+class Solution:
+    def firstUniqChar(self,s):
+        dic={}
+        idx=len(s)
+        for i in range(len(s)):
+            dic[s[i]][0]+=1
+            dic[s[i]][1]=i
+
+        for item in dic:
+            if item[0]==1:
+                idx=min(idx,item[1])
+
+
 
 
 # other good solution:
 
 
 def main():
-    n=5
+    n="asdas3asdas"
     time_t=time.time()
     sln=Solution().generate(n)
     print(time.time()-time_t)
