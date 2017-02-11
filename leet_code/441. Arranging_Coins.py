@@ -28,7 +28,7 @@
 
 #key:1) use binary search
 #2) use (n+1)n/2
-
+# 3) mid= start+(end-start)/2 this one will not over flow
 import collections
 class Solution(object):
     def arrangeCoins(self, n):
@@ -40,7 +40,7 @@ class Solution(object):
         end=n
         mid=0
         while start<=end:
-            mid=int((start+end)/2)
+            mid=int(start+(end-start)/2)
             if (0.5*mid**2+0.5*mid)<=n:
                 start=mid+1
             else: end =mid -1
