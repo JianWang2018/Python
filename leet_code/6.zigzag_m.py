@@ -9,7 +9,8 @@
 # string convert(string text, int nRows);
 # convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
-# key: build number of rows blank string,change the direction when index equal to 0 or num_rows-1
+# key: build number of rows blank string,put the character to the corresponding rows,change the direction when index equal to 0 or num_rows-1
+
 
 class Solution(object):
     def convert(self, s, numRows):
