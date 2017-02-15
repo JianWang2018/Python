@@ -1,19 +1,11 @@
-# Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+# Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
 #
-# Note: The solution set must not contain duplicate triplets.
+#     For example, given array S = {-1 2 1 -4}, and target = 1.
 #
-# For example, given array S = [-1, 0, 1, 2, -1, -4],
-#
-# A solution set is:
-# [
-#   [-1, 0, 1],
-#   [-1, -1, 2]
-# ]
+#     The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+# Subscribe to see which companies asked this question.
 
-# key:The idea is to sort an input array and then run through all indices of a possible first element of a triplet.
-#  For each possible first element we make a standard bi-directional 2Sum sweep of the remaining part of the
-# array. Also we want to skip equal elements to avoid duplicates in the answer without making a set or smth
-# like that.
+# key:similar with 3 sum, just choose the closet one each time.
 
 class Solution(object):
     def threeSum(self, nums):
@@ -53,7 +45,27 @@ class Solution(object):
                         right-=1
         return result
 
+class Solution1:
+    # @return an integer
+    def threeSumClosest(self, num, target):
+        num.sort()
+        result = num[0] + num[1] + num[2]
+        for i in range(len(num) - 2):
+            j, k = i+1, len(num) - 1
+            while j < k:
+                sum = num[i] + num[j] + num[k]
+                if sum == target:
+                    return sum
 
+                if abs(sum - target) < abs(result - target):
+                    result = sum
+
+                if sum < target:
+                    j += 1
+                elif sum > target:
+                    k -= 1
+
+        return result
 #
 # def main():
 #     s="   +123"
