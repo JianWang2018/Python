@@ -11,6 +11,7 @@
 # UPDATE (2016/2/13):
 # The return format had been changed to zero-based indices. Please read the above updated description carefully.
 
+# Key: use dict, key is num[i] and val is target - num[i]
 
 class Solution(object):
     def twoSum(self, nums, target):
