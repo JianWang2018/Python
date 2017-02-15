@@ -1,5 +1,6 @@
 # Leetcode Solution
-store leetcode solution and commnent
+author: Jian wang
+function:store leetcode solution and commnent
 
 
 ## Solution
