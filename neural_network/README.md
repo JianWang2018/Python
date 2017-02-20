@@ -3,6 +3,9 @@ Realized the projects of coursera course "Neural Networks for Machine Learning",
 The code is written by python instead of matlab, which is the default for this course.
 
 ### Programming Assignment 1: The perceptron learning algorithm
-reuslt for dataset1:
-
-<img src="nn_prj1_data1.png" height=100% width=100%>
+Reuslt for dataset1:
+<img src="nn_prj1_data1.png" height=80% width=80%>
+Reuslt for dataset2:
+<img src="nn_prj1_data2.png" height=80% width=80%>
+Reuslt for dataset3:
+<img src="nn_prj1_data3.png" height=80% width=80%>
