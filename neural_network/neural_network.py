@@ -180,7 +180,7 @@ class NeuralNetwork(object):
 
         # find the correct classification index of positive and negative class
         neg_correct_ind=list(set(range(neg_examples.shape[0]))-set(mistakes0))
-        pos_correct_ind=list(set(range(neg_examples.shape[0]))-set(mistakes1))
+        pos_correct_ind=list(set(range(pos_examples.shape[0]))-set(mistakes1))
 
         plt.figure()                # the first figure
         plt.suptitle("Classification with the perceptron learning algorithm")
@@ -228,8 +228,8 @@ def main():
     np.random.seed(987612345)
 
     #data is in dict form
-    data = scipy.io.loadmat(path_load+'/dataset3.mat')
-    w=NeuralNetwork().learn_perceptron(data['neg_examples_nobias'],data['pos_examples_nobias'],data['w_init'],data['w_gen_feas'],iter_max=5)
+    data = scipy.io.loadmat(path_load+'/dataset4.mat')
+    w=NeuralNetwork().learn_perceptron(data['neg_examples_nobias'],data['pos_examples_nobias'],data['w_init'],data['w_gen_feas'],iter_max=2)
     print(w)
 
 if __name__=="__main__":
