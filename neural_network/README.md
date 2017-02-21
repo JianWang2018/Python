@@ -3,6 +3,8 @@ Realized the projects of coursera course "Neural Networks for Machine Learning",
 The code is written by python instead of matlab, which is the default for this course.
 
 ### Programming Assignment 1: The perceptron learning algorithm
+Use iteration numbersequal to 5 as examples
+
 Reuslt for dataset1:
 
 <img src="nn_prj1_data1.png" height=80% width=80%>
