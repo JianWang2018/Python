@@ -194,7 +194,7 @@ class NeuralNetwork(object):
 	        plt.plot(neg_examples[mistakes0,0],neg_examples[mistakes0,1],'or',markersize=20)
 
         if (np.size(mistakes1) > 0):
-	        plt.plot(pos_examples(mistakes1,0),pos_examples(mistakes1,1),'sr',markersize=20)
+	        plt.plot(pos_examples[mistakes1,0],pos_examples[mistakes1,1],'sr',markersize=20)
 
         plt.title("Classifier")
 
@@ -228,8 +228,8 @@ def main():
     np.random.seed(987612345)
 
     #data is in dict form
-    data = scipy.io.loadmat(path_load+'/dataset4.mat')
-    w=NeuralNetwork().learn_perceptron(data['neg_examples_nobias'],data['pos_examples_nobias'],data['w_init'],data['w_gen_feas'],iter_max=2)
+    data = scipy.io.loadmat(path_load+'/dataset1.mat')
+    w=NeuralNetwork().learn_perceptron(data['neg_examples_nobias'],data['pos_examples_nobias'],data['w_init'],data['w_gen_feas'],iter_max=20)
     print(w)
 
 if __name__=="__main__":
