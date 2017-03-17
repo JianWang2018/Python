@@ -1,3 +1,2 @@
-# Python
-Store python codes
-
+# python
+store python codes

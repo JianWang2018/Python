@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1280b5cb-e812-4e88-874d-53f86e1ee529" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural_network/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural_network/prj1/neural_network.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural_network/prj1/nn_prj1_data1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural_network/prj1/nn_prj1_data2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural_network/prj1/nn_prj1_data3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/neural_network/prj1/nn_prj1_data4.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.git.iws" />
@@ -28,100 +22,7 @@
     <favorites_list name="python.git" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="15.3Sum_m.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leet_code/15.3Sum_m.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="63" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="19.remove_noe_end_m.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leet_code/19.remove_noe_end_m.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="22Generate_Parentheses_mm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leet_code/22Generate_Parentheses_mm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="26.remove_duplicate_from_array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leet_code/26.remove_duplicate_from_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="24.swap_node_pairs_m.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leet_code/24.swap_node_pairs_m.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="18" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="29.Divide_Two_Integers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leet_code/29.Divide_Two_Integers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22360249">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.zigzag_m.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leet_code/6.zigzag_m.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_book.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/research/order_book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="computer_vision.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/computer-vision/computer_vision.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,8 +92,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="413" />
-    <option name="y" value="334" />
+    <option name="x" value="86" />
+    <option name="y" value="52" />
     <option name="width" value="1616" />
     <option name="height" value="936" />
   </component>
@@ -207,7 +108,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -221,8 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,12 +132,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/media/jianwang/Study/repository/Neural_network_machine_learning" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -485,7 +395,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="334" width="1616" height="936" extended-state="0" />
+    <frame x="86" y="52" width="1616" height="936" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -902,59 +812,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leet_code/19.remove_noe_end_m.py">
+    <entry file="file://$PROJECT_DIR$/leet_code/6.zigzag_m.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leet_code/29.Divide_Two_Integers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/jianwang/Study/repository/Neural_network_machine_learning/prj2/neural_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leet_code/26.remove_duplicate_from_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6254826">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leet_code/22Generate_Parentheses_mm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leet_code/24.swap_node_pairs_m.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.16216215">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="18" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leet_code/15.3Sum_m.py">
+    <entry file="file://$PROJECT_DIR$/leet_code/22Generate_Parentheses_mm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="63" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leet_code/6.zigzag_m.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.4169884">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/research/order_book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.023166023">
           <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,17 +866,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leet_code/29.Divide_Two_Integers.py">
+    <entry file="file://$PROJECT_DIR$/leet_code/19.remove_noe_end_m.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22360249">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.55598456">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leet_code/15.3Sum_m.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72200775">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="63" selection-end-column="12" />
         </state>
       </provider>
     </entry>
