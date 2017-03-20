@@ -1,7 +1,7 @@
 # python
 store python codes
 
-```javascript
+```python 
 function test() {
  console.log("look ma’, no spaces");
 }
