@@ -2,7 +2,8 @@
 store python codes
 
 ```python 
-function test() {
- console.log("look ma’, no spaces");
-}
+import numpy as np 
+a=np.zeros([1,2])
+print(a)
+
 ```
